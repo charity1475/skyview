@@ -15,11 +15,15 @@
             <artifactId>javafx-controls</artifactId>
             <version>17.0.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20220320</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-web</artifactId>
+            <version>19-ea+7</version>
         </dependency>
         <dependency>
             <groupId>com.jfoenix</groupId>

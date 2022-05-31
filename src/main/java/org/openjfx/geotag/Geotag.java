@@ -46,7 +46,9 @@ public class Geotag {
         longitude = object.getJSONArray("results")
                 .getJSONObject(0).getJSONArray("locations")
                 .getJSONObject(0).getJSONObject("latLng").getDouble("lng");
-        return new Location(latitude, longitude);
+        Location location = new Location(latitude, longitude);
+        System.out.println("******** "+ location.toString() + " **************");
+        return location;
     }
 
     private String getUrl(String location) {
