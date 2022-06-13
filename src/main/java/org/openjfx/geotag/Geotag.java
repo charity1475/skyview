@@ -2,13 +2,11 @@ package org.openjfx.geotag;
 
 import org.openjfx.errors.LocationNotFoundException;
 import org.openjfx.model.Location;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
 import org.json.JSONObject;
 
 public class Geotag {

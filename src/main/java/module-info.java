@@ -4,4 +4,5 @@ module org.openjfx {
     requires com.jfoenix;
     requires javafx.web;
     exports org.openjfx;
+    exports org.openjfx.views;
 }
